@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\resources">
+      <UniqueIdentifier>{8d898537-49a0-48c8-995b-af8d187d5971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\resources\font">
+      <UniqueIdentifier>{b881c8d0-c771-4e00-ac65-128fb407c865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\resources\audio">
+      <UniqueIdentifier>{5eb10f46-4127-498e-838f-46f373fc4076}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\AudioManager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="source\game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="source\random.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tile.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WindowManager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\AudioManager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="source\game.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="source\random.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="source\tile.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WindowManager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\font\Industry.ttf">
+      <Filter>Файлы ресурсов\resources\font</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\audio\bom0.ogg">
+      <Filter>Файлы ресурсов\resources\audio</Filter>
+    </None>
+    <None Include="resources\audio\bombBoom.ogg">
+      <Filter>Файлы ресурсов\resources\audio</Filter>
+    </None>
+    <None Include="resources\audio\buttone.ogg">
+      <Filter>Файлы ресурсов\resources\audio</Filter>
+    </None>
+    <None Include="resources\audio\extraBoom.ogg">
+      <Filter>Файлы ресурсов\resources\audio</Filter>
+    </None>
+    <None Include="resources\audio\flag.ogg">
+      <Filter>Файлы ресурсов\resources\audio</Filter>
+    </None>
+    <None Include="resources\audio\flag1.ogg">
+      <Filter>Файлы ресурсов\resources\audio</Filter>
+    </None>
+    <None Include="resources\audio\flag2.ogg">
+      <Filter>Файлы ресурсов\resources\audio</Filter>
+    </None>
+    <None Include="resources\audio\tileSound(1).ogg">
+      <Filter>Файлы ресурсов\resources\audio</Filter>
+    </None>
+    <None Include="resources\audio\tileSound(2).ogg">
+      <Filter>Файлы ресурсов\resources\audio</Filter>
+    </None>
+    <None Include="resources\audio\tileSound(3).ogg">
+      <Filter>Файлы ресурсов\resources\audio</Filter>
+    </None>
+    <None Include="resources\audio\victori.ogg">
+      <Filter>Файлы ресурсов\resources\audio</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\audio\devilThem.mp3">
+      <Filter>Файлы ресурсов\resources\audio</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
