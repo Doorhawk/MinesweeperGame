@@ -52,6 +52,11 @@
   <ItemGroup>
     <Media Include="resources\audio\devilThem.mp3" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\pic\bomb1.gif" />
+    <Image Include="..\pic\bomb2.gif" />
+    <Image Include="..\pic\pic1.png" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
